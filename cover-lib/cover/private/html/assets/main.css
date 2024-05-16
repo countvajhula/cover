@@ -3,12 +3,14 @@
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+/* Colorblind-friendly colors taken from the Wong palette.
+See: https://docs.racket-lang.org/colorblind-palette/index.html */
 .uncovered {
-  color:red;
+  color:#D55E00;
 }
 
 .covered {
-  color:green;
+  color:#009E73;
 }
 
 .total-coverage {
